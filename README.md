@@ -74,23 +74,26 @@ These insights empower stakeholders with key business metrics, enabling strategi
 ---
 ## 🛠️ Technologies & Tools
 
-- **SQL Server Express** – Database engine
-- **SQL Server Management Studio (SSMS)** – Database development and management
-- **SQL** – Data transformation, validation, analysis, and reporting
-- **Git & GitHub** – Version control and project management
-- **Draw.io** – Data architecture and modelling diagrams
-- **CSV** – Source data format
+| Tool / Technology | How it was used |
+|---|---|
+| **SQL Server Express** | Database engine used to build and run the data warehouse |
+| **SQL Server Management Studio (SSMS)** | SQL development, database management, testing, and execution |
+| **T-SQL** | ETL processes, data cleansing, transformation, validation, and analytics |
+| **Git & GitHub** | Version control, source code management, and project sharing |
+| **Draw.io** | Designing and documenting the data warehouse architecture |
+| **Notion** | Project planning, defining epics and tasks, and tracking project progress |
+| **CSV** | Source data format for the CRM and ERP systems |
 
 ---
 
-## 🔗 Important Tools
+## 🔗 Important Links
 
-- 📂 **Datasets** – Source CRM and ERP CSV files
-- 🗄️ **SQL Server Express** – Database engine used for the project
-- 💻 **SQL Server Management Studio (SSMS)** – SQL development and database management
-- 🐙 **GitHub** – Source control and project repository
-- 🎨 **Draw.io** – Architecture and data modelling diagrams
-- 📝 **Notion** – Project organization and documentation
+- 📂 **[Datasets](datasets/)** — CRM and ERP source CSV files
+- 📚 **[Documentation](docs/)** — Project documentation and supporting materials
+- 🏗️ **[Data Architecture](docs/data_architecture_AM.png)** — Data warehouse architecture designed for this project
+- 📝 **[Project Planning & Progress](https://app.notion.com/p/Data-Warehouse-Project-3c14caec01b38016b934c70df03031d4?source=copy_link)** — Epics, tasks, milestones, and project progress tracked in Notion
+- 🐙 **[GitHub Repository](https://github.com/amacionyte-tech/sql-data-warehouse-project)** — Source code and complete project
+- 💼 **[LinkedIn](https://www.linkedin.com/in/agne-macionyte/)** — Feel free to connect!
 
 ---
 
@@ -123,7 +126,7 @@ sql-data-warehouse-project/
 │   │   └── proc_load_silver.sql
 │   │
 │   └── gold/
-│       └── ...
+│       └── ddl_gold.sql
 │
 ├── README.md
 └── LICENSE
